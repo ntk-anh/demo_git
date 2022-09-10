@@ -16,8 +16,8 @@ public class HomeController {
 		ModelAndView modelAndView = new ModelAndView("home");// tên file
 		
 		int soA=15;
-		int soB=10;
-		int soC=15;
+		int soB=10; 
+		int soC=7;  
 		int soD=10;
 		int soF=9;
 		int tong=tinhTong(soA, soB);

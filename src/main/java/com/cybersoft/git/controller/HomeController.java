@@ -17,6 +17,7 @@ public class HomeController {
 		
 		int soA=15;
 		int soB=10;
+		int soC=20;
 		int tong=tinhTong(soA, soB);
 		
 		modelAndView.addObject("ketqua",tong);

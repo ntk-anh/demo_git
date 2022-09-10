@@ -15,8 +15,8 @@ public class HomeController {
 	public ModelAndView home() {
 		ModelAndView modelAndView = new ModelAndView("home");// tên file
 		
-		int soA=10;
-		int soB=20;
+		int soA=15;
+		int soB=10;
 		int tong=tinhTong(soA, soB);
 		
 		modelAndView.addObject("ketqua",tong);
